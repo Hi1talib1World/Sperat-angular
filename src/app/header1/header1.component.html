@@ -1,1 +1,14 @@
-<p>header1 works!</p>
+<mat-toolbar color="primary" layout="fill">
+	{{ title }}
+	<span class="fill-space"></span>
+  <mat-slide-toggle color="accent" (change)="onThemeChange($event)">
+        Dark Theme
+      </mat-slide-toggle>
+	<!-- <a mat-raised-button color="accent" [href]="websiteUrl" target="_blank">
+		About Answerer
+		<mat-icon>info</mat-icon>
+	</a> -->
+</mat-toolbar>
+<mat-card [style.fontSize.px]="'14'" [style.borderRadius.px]="'0'">
+	This demo is using Angular <b>{{ angularVersion }}</b> & Material <b>{{ materialVersion }}</b>. Feel free to reuse this solution template for Stackoverflow problems \o/
+</mat-card>
