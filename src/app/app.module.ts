@@ -4,12 +4,12 @@ import { NgMatSearchBarModule } from 'ng-mat-search-bar';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { Header1Component } from './header1/header1.component';
+import { HeaderComponent } from './layout/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Header1Component
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
