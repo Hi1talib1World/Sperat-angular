@@ -23,6 +23,7 @@
     "@angular/router": "~8.2.14",
     "@ng-bootstrap/ng-bootstrap": "^13.0.0",
     "@popperjs/core": "^2.11.6",
+    "@types/npm": "^7.19.0",
     "font-awesome": "^4.7.0",
     "ng-mat-search-bar": "^4.1.2",
     "rxjs": "~6.4.0",
